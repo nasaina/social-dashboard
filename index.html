@@ -4,34 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Nasaina | Dashboard</title>
+    <title>Nasainarivelo | Dashboard</title>
     <link rel="stylesheet" href="bootstrap/dm/dark-mode.css">
     <link rel="stylesheet" type="text/css" href="bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="index.css">
 </head>
 <body>
     <div class="container">
+      <!-- Page title -->
       <div class="title">
         <h3><strong>Social Media Dashboard</strong></h3>
       </div>
+      
+      <!-- Header section with total followers and dark mode toggle -->
       <div class="custom-control custom-switch">
-        <span class="col-lg-2" style="
-    padding-left: 0px;
-">Total Followers : 23,004</span>
+        <span class="col-lg-2" style="padding-left: 0px;">Total Followers : 23,004</span>
         <div class="col-lg-offset-11">
           <label class="custom-control-label" for="darkSwitch">Dark Mode</label>
-          <input type="checkbox" name="mode" class="custom-control-input  btn-danger" id="darkSwitch">
+          <input type="checkbox" name="mode" class="custom-control-input btn-danger" id="darkSwitch">
         </div>
       </div>
 
+      <!-- Main social media cards section -->
       <div>
         <div class="row">
           <div id="hor">
+            <!-- Facebook card -->
             <div class="col-lg-3 col-md-3 col-sm-6 col-6">
             <div class="ssmall-box" id="hot">
-              <div id="fond"></div>
+              <div id="fond"></div> <!-- Facebook brand color bar -->
               <div class="inner" align="center">
-                <span><img src="icons/fb.png"> @nasaina</span>
+                <span><img src="icons/fb.png"> @nasainarivelo</span>
                 <div>
                   <h2><strong>1097</strong></h2>
                   <span id="followers">F O L L O W E R S</span><br>
@@ -40,11 +43,13 @@
               </div>
             </div>
           </div>
+          
+          <!-- Twitter card -->
           <div class="col-lg-3 col-md-3 col-sm-6 col-6">
             <div class="ssmall-box" id="hot">
-              <div id="ft"></div>
+              <div id="ft"></div> <!-- Twitter brand color bar -->
               <div class="inner" align="center">
-                <span><img src="icons/twit.png"> @nasaina</span>
+                <span><img src="icons/twit.png"> @nasainarivelo</span>
                 <div>
                   <h2><strong>1044</strong></h2>
                   <span id="followers">F O L L O W E R S</span><br>
@@ -53,11 +58,13 @@
               </div>
             </div>
           </div>
+          
+          <!-- Instagram card -->
           <div class="col-lg-3 col-md-3 col-sm-6 col-6">
             <div class="ssmall-box" id="hot">
-              <div id="fi"></div>
+              <div id="fi"></div> <!-- Instagram brand color bar -->
               <div class="inner" align="center">
-                <span><img src="icons/insta.png"> @realnasaina</span>
+                <span><img src="icons/insta.png"> @realnasainarivelo</span>
                 <div>
                   <h2><strong>11k</strong></h2>
                   <span id="followers">F O L L O W E R S</span><br>
@@ -66,11 +73,13 @@
               </div>
             </div>
           </div>
+          
+          <!-- YouTube card -->
           <div class="col-lg-3 col-md-3 col-sm-6 col-6">
             <div class="ssmall-box" id="hot">
-              <div id="fy"></div>
+              <div id="fy"></div> <!-- YouTube brand color bar -->
               <div class="inner" align="center">
-                <span><img src="icons/you.png"> Nasaina A.</span>
+                <span><img src="icons/you.png"> Nasainarivelo A.</span>
                 <div>
                   <h2><strong>8239</strong></h2>
                   <span id="followers">S U B S C R I B E R S</span><br>
@@ -80,15 +89,17 @@
             </div>
           </div>
           </div>
+      </div>
 
-
-
+      <!-- Overview section title -->
       <div class="container" id="over">
         <h3><strong>Overview - Today</strong></h3>
       </div>
 
+      <!-- Detailed statistics grid -->
       <div class="container-fluid">
         <div class="row">
+          <!-- Facebook Page Views -->
           <div class="col-lg-3 col-sm-6 col-6">
             <div class="small-box" id="low">
               <div class="col-lg-5 col-xs-4 col-md-5">
@@ -101,6 +112,8 @@
               </div>
             </div>
           </div>
+          
+          <!-- Facebook Likes -->
           <div class="col-lg-3 col-sm-6 col-6">
             <div class="small-box" id="low">
               <div class="col-lg-5 col-xs-5 col-md-5">
@@ -113,6 +126,8 @@
               </div>
             </div>
           </div>
+          
+          <!-- Instagram Likes -->
           <div class="col-lg-3 col-sm-6 col-6">
             <div class="small-box" id="low">
               <div class="col-lg-5 col-xs-4 col-md-5">
@@ -125,6 +140,8 @@
               </div>
             </div>
           </div>
+          
+          <!-- Instagram Profile Views -->
           <div class="col-lg-3 col-sm-6 col-6">
             <div class="small-box" id="low">
               <div class="col-lg-6 col-xs-4 col-md-5">
@@ -137,6 +154,8 @@
               </div>
             </div>
           </div>
+          
+          <!-- Twitter Retweets -->
           <div class="col-lg-3 col-sm-6 col-6">
             <div class="small-box" id="low" style="margin-top: 16px;">
               <div class="col-lg-5 col-xs-4 col-md-5">
@@ -149,6 +168,8 @@
               </div>
             </div>
           </div>
+          
+          <!-- Twitter Likes -->
           <div class="col-lg-3 col-sm-6 col-6">
             <div class="small-box" id="low" style="margin-top: 16px">
               <div class="col-lg-5 col-xs-4 col-md-5">
@@ -161,6 +182,8 @@
               </div>
             </div>
           </div>
+          
+          <!-- YouTube Likes -->
           <div class="col-lg-3 col-sm-6 col-6">
             <div class="small-box" id="low" style="margin-top: 16px;">
               <div class="col-lg-5 col-xs-4 col-md-5">
@@ -173,6 +196,8 @@
               </div>
             </div>
           </div>
+          
+          <!-- YouTube Total Views -->
           <div class="col-lg-3 col-sm-6 col-6">
             <div class="small-box" id="low" style="margin-top: 16px;">
               <div class="col-lg-5 col-xs-4 col-md-5">
@@ -190,8 +215,9 @@
       </div>
     </div>
   </div>
-</body>
+
 <script type="text/javascript" src="bootstrap/dist/js/jquery.js"></script>
 <script type="text/javascript" src="bootstrap/dist/js/bootstrap.js"></script>
 <script type="text/javascript" src="bootstrap/dm/dark-mode-switch.js"></script>
+</body>
 </html>
